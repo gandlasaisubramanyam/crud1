@@ -1,0 +1,20 @@
+.form-container{
+    margin-right: 30px;
+    }
+    .create-btn{
+        width: 50vw;
+        padding: 10px;
+        margin: 20px;
+    }
+    input{
+        margin: 30px;
+        padding: 10px;
+    }
+    #Textarea{
+        margin-left: 30px;
+    }
+    .c-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

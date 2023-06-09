@@ -1,0 +1,36 @@
+.main-heading{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+.row-main{
+display: flex;
+
+justify-content: space-between;
+}
+.col{
+   margin: 0 10px;
+}
+.thead-dark{
+    background-color: #f0f0f0;
+    text-align: center;
+    /* border: 1px solid grey; */
+}
+tr{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    margin: 10px;
+}
+.create-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-btn{
+    width: 70%;
+}
