@@ -23,7 +23,7 @@ const formvalidationSchema = yup.object({
 const EditUser = ({formList}) => {
 
   const params = useParams();
-  const Index = formList.findIndex((item) => item.id == params.id);
+  const Index = formList.findIndex((item) => item.id === params.id);
   const details = formList[Index];
 
   const navigate = useNavigate();
